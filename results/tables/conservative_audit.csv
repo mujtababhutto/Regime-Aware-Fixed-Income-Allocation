@@ -1,0 +1,5 @@
+,months,annualized_return,annualized_volatility,return_to_volatility,sharpe_excess_over_short_treasury,maximum_drawdown,annualized_turnover
+published_rule,239,0.037913,0.030254,1.253161,0.692606,-0.100964,
+lagged_rule,239,0.033562,0.033112,1.013564,0.487825,-0.108606,0.714473
+saa_benchmark,239,0.037089,0.049429,0.750353,0.396987,-0.162269,
+lagged_rule_after_10bp_cost,239,0.032847,0.033093,0.992556,0.465957,-0.110467,0.714473
