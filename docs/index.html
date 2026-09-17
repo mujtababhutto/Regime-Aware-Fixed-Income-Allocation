@@ -59,7 +59,7 @@
             <h3>Primary mandate</h3>
             <p>
               The framework was designed to reduce downside risk relative to a static strategic
-              allocation. In the submitted backtest, maximum drawdown was −10.1%, compared with
+              allocation. In the full-period backtest, maximum drawdown was −10.1%, compared with
               −16.2% for the strategic benchmark.
             </p>
           </div>
@@ -67,25 +67,18 @@
             <h3>Secondary mandate</h3>
             <p>
               The strategy sought positive risk-adjusted returns through interpretable regime
-              signals and explicit risk controls. The submitted return-to-volatility ratio was
+              signals and explicit risk controls. The full-period return-to-volatility ratio was
               1.89 versus 1.07 for the benchmark.
             </p>
           </div>
         </div>
 
-        <div class="summary-metrics" aria-label="Submitted headline results">
+        <div class="summary-metrics" aria-label="Full-period headline results">
           <div><span>Annualised return</span><strong>5.89%</strong><small>Benchmark 5.18%</small></div>
           <div><span>Annualised volatility</span><strong>3.11%</strong><small>Benchmark 4.85%</small></div>
           <div><span>Maximum drawdown</span><strong>−10.1%</strong><small>Benchmark −16.2%</small></div>
           <div><span>Return / volatility</span><strong>1.89</strong><small>Benchmark 1.07</small></div>
         </div>
-
-        <aside class="method-note">
-          <strong>Interpretation note.</strong> The notebook labels return divided by volatility as
-          “Sharpe Ratio”; the page uses the more precise term “return / volatility.” A separate
-          implementation audit below applies a one-month signal lag, a common asset-history window,
-          and an illustrative trading cost.
-        </aside>
 
         <h3 class="subsection-heading">Data coverage</h3>
         <dl class="coverage-grid">
@@ -190,11 +183,11 @@
       <section class="report-section page-width" id="results">
         <div class="section-title">
           <span>03</span>
-          <div><p class="kicker">Backtest results</p><h2>Submitted performance and implementation audit</h2></div>
+          <div><p class="kicker">Backtest results</p><h2>Full-period performance and implementation audit</h2></div>
         </div>
 
         <div class="table-block first-block">
-          <h3>Full-period submitted results</h3>
+          <h3>Full-period results</h3>
           <div class="table-scroll" role="region" aria-label="Full-period performance results" tabindex="0">
             <table>
               <thead><tr><th>Metric</th><th>Regime-aware</th><th>Strategic allocation</th><th>Difference</th></tr></thead>
@@ -225,7 +218,7 @@
         <figure class="report-figure full-width">
           <img
             src="assets/charts/performance-and-drawdown-common-sample.png"
-            alt="Portfolio growth and drawdown comparison between the submitted implementation, a lagged cost scenario, and the strategic benchmark"
+            alt="Portfolio growth and drawdown comparison between the backtest implementation, a lagged cost scenario, and the strategic benchmark"
             loading="lazy"
           />
         </figure>
